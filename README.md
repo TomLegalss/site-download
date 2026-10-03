@@ -1,2 +1,156 @@
-# site-download
-sfaf
+[baixar_arquivo_rbxm.html](https://github.com/user-attachments/files/33007531/baixar_arquivo_rbxm.html)
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarregar Arquivo RBXM</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 32px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .icon {
+            width: 64px;
+            height: 64px;
+            background-color: #e11d48;
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px auto;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            color: #f1f5f9;
+        }
+
+        p {
+            color: #94a3b8;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .preview-box {
+            background-color: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 12px;
+            font-family: monospace;
+            font-size: 12px;
+            color: #38bdf8;
+            text-align: left;
+            max-height: 120px;
+            overflow-y: auto;
+            margin-bottom: 24px;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .btn-download {
+            background-color: #e11d48;
+            color: #ffffff;
+            border: none;
+            padding: 14px 28px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+
+        .btn-download:hover {
+            background-color: #be123c;
+        }
+
+        .btn-download:active {
+            transform: scale(0.98);
+        }
+
+        .file-info {
+            margin-top: 16px;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+
+        .file-info strong {
+            color: #f43f5e;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="icon">
+        RBX
+    </div>
+    <h1>Baixar Modelo Roblox (.rbxm)</h1>
+    <p>O conteúdo fornecido foi preparado para download direto no formato original de modelo do Roblox Studio.</p>
+
+    <div class="preview-box" id="previewBox">Carregando pré-visualização...</div>
+
+    <button class="btn-download" onclick="downloadFile()">
+        &#128229; Baixar Pipoco_e_desbug.rbxm
+    </button>
+
+    <div class="file-info">Arquivo de saída: <strong>Pipoco_e_desbug.rbxm</strong></div>
+</div>
+
+<script>
+    // Conteúdo binário/XML do modelo do Roblox
+    const rawContent = `<roblox! META$ ExplicitAutoJoints trueSSTR INST, ChorusSoundEffect INST Folder INST  LocalScript VINST Model INST Part INST$ ParticleEmitter INST  RemoteEvent VINST Script VINST Sound INST  SpecialMesh INST SpotLight PROP* AttributesSerialize PROP# Capabilities! PROP& DefinesCapabilities PROP$ Depth PROP Enabled PROP PROP- Name ChorusSoundEffect {PffectPROP Priority PROP Rate PROP' SourceAssetId PROP Tags PROP( AttributesSerialize PROP! Capabilities! PROP$ DefinesCapabilities PROPd Name Pipoco + Desbugar Sistema de   \`lugins> Body  Personagem PluginsPROP# SourceAssetId PROP Tags PROP* AttributesSerialize PROP  Capabilities! PROP! DefinesCapabilities PROP Disabled PROP# LinkedSource PROP- Name Backfire [FE+] AnimsPROP! RunContext PROP ScriptGuid {F585C811-9E55-4045-AD7B-7125C8635B63}* 8EF2E43E-0404-4FCA-9B64-A40BFA4D6925* 15CCBF70-881B-4662-8724-B4C596538B0B}PROP Source local FE = workspace.FilteringEnabled car = script.Parent. Bike.Value& \`handle* car:WaitForChild("Backfire_FE")0 _Tune = require(car["A-Chassis  Z"]) s.Gear.Changed:connect(function() 2RPM >6000 then :FireServer wait (0.1 @else car.Body.Exhaust. P:play o = tru aend end) while % () do --//Q b//-- randomability = math. p (1, 2)Y throtOff  > 7500 and L 1<=1 #tl" 2 <= T.Idle D/100 Qredli _ceil(6 3) > RevBounce #<#5 patios-2M &ifJ FLight1.Spot < 10 --[[ Novena Constraint Type: Motorcycl 1The RikOne2 | Enjin --]] 0bik ogame.WA !C=( Players.L| cracter| Anims") TuckInSpeed = 70 --At what s you tuck in5 pHead YFinish = .4 --Max left  movement o  e 6 PStart< oinimum@ 5 --Side to s a3 --Up Odown pR6Torso  InA 6Arm R6Lef @ leaK 2Leg 9Arm2 --Multipliers/DividersN \`D = 3. QM = 2 A--R10 "CXR15 _.13 EKneeI F-.2 V-0.05e %.4d UElbowe ".4d QLower <UppL $72j 10.1f Performance clockw higher it is,  less laggy< asmooth  will be --Dont touch' LegPointZero :Arm .DriveSeat. ) Re B",C,, )VCreat2 *U*(1-m \`)+endp 3(1d(- bal.Orient &0n.Zj C.Humanoid.Rig  == Enum 0.R6e (@abs(v B) <  QMisc. @.R6. .Z.M.Cur +@Angl ELean bSteerTH,  > 0.01n A.1)+ amax(-( 1)*(h Velocity.magnitude/20))+U $),u E)*.1 O < -C Z?in( D > 5 %< G/ _Leg.I 6min1 VLean/ >D), =Arm 1 = =  2S-(-.3 !.5A 72-.2m 2 >  3(-( ?))*C A --r #15M A--up OFoot *".6 18)+ E8)+1 30.1 30.1> $-0z )*2)-1), "an< ?)/-' ?D)* ?D)*  ((\` ?D)* OHand" x8pend endPROP! SourceAssetId PROP Tags PROP" AttributesSerialize PROP Capabilities! PROP DefinesCapabilities PROP LevelOfDetail PROPK ModelMeshCFrame (g.PROP ModelMeshData PROP$ ModelMeshSize PROP! ModelStreamingMode PROP Name ExhaustPROP NeedsPivotMigration PROP PrimaryPart PROP ScaleFactor PROP SlimHash PROP  SourceAssetId PROP Tags PROPM WorldPivotData }?OB PROP Anchored PROP( AttributesSerialize PROP" AudioCanCollide PROP% BackParamA PROP" BackParamB PROP" BackSurface PROP% BackSurfaceInput PROP' BottomParamA PROP$ BottomParamB PROP$ BottomSurface PROP( BottomSurfaceInput PROP CFrame Hs?h +Hs? >K\`w >T\`w SrRsJLW] &-&-++*) PROP CanCollide PROP CanQuery PROP CanTouch PROP! Capabilities! PROP CastShadow PROP- CollisionGroup Default 5PfaultPROP% CollisionGroupId PROP- Color3uint8 PROPI CustomPhysicalProperties 333? ?PROP& DefinesCapabilities PROP$ EnableFluidForces PROP& FrontParamA PROP# FrontParamB PROP# FrontSurface PROP& FrontSurfaceInput PROP% LeftParamA PROP" LeftParamB PROP" LeftSurface PROP% LeftSurfaceInput PROP Locked PROP Massless PROP# Material PROP, MaterialVariantS oized PROPB Name BFLight2 ackfire2 Pfire4PROP$ PivotOffset PROP! Reflectance PROP& RightParamA PROP# RightParamB PROP# RightSurface PROP& RightSurfaceInput PROP! RootPriority PROP  RotVelocity PROP% SourceAssetId PROP oTags PROP$ TopParamA PROP! TopParamB PROP! TopSurface PROP$ TopSurfaceInput PROP$ Transparency PROP Velocity PROP% formFactorRaw PROP shape PROPN csize PROP! Acceleration PROP' AttributesSerialize PROP% Brightness PROP! Capabilities! PROP Color PROP" DefinesCapabilities PROP Drag PROP% EmissionDirection PROP Enabled PROP) FlipbookFramerate ?PROP\\ FlipbookIncompatible Particle texture must be 1024 by to use fF /s.; Pooks.PROP" FlipbookLayout PROP  FlipbookMode PROP! FlipbookSizeX PROP! FlipbookSizeY PROP" FlipbookStartRandom PROP* Lifetime L>PROP( LightEmission PROP" LightInfluence PROP LockedToPart PROP Name OFire FirePROP Orientation PROP Rate 8JJ8 PROP RotSpeed PROP Rotation PROP vShape PROP ShapeInOut PROP' ShapePartial PROP ShapeStyle PROPT Size PROP" SourceAssetId PROP  Speed  APROP* SpreadAngle PROP$ Squash PROP Tags PROPH Texture http://www.roblox.com/asset/?id=242102147- oP02147PROP$ TimeScale PROPD Transparency Bfff? fff? PROP' VelocityInheritance PROP WindAffectsDrag PROP ZOffset PROP* AttributesSerialize PROP  Capabilities! PROP! DefinesCapabilities PROP* Name Backfire_FE AnimsPROP! SourceAssetId PROP Tags PROP* AttributesSerialize PROP  Capabilities! PROP! DefinesCapabilities PROP Disabled PROP# LinkedSource PROP" Name {Handler pFEAnimsPROP! RunContext PROP ScriptGuid {A06DFD4C-FE69-40FB-B47C-F6C8010D1F45}* 59677BE0-47BD-4B85-84E1-5C72176972CD* 873C9FCA-32B4-4A0B-A1FE-8F2281B91E00}PROP Source local car = script.Paren #F = {} F.Backfire1 = function() car.Body.Exhaust) _:play- 1.Fire.Enabled = true FLight1.Spot wait (0.03/ Ofals end& OnServerEvent:connect(c pl,Fnc,...) F[Fnc]( \`end) DriveSeat.ChildRemovedK .Name=="; Weld" then C(1) Obike 0cur PPlaye Pnil .Misc.Anims.R15.R Arm.Upper RParts oent = C =LowW $@Hand 2Leg $1Foo @Left aTorso. 4Hea 4New -- Detectar quando o jogador sai da motoQ 4sea :FindFirst; %("L :GetPropertyChangedSignal("Occupant"):C 1notQ K and -- J 00.1N Q, nil& SCreatK C.Humanoid Type == Enum 2.R6Y \`Transp qcy = 1 m Arm"]#  ["h ?LegC Neck")~=nil for i,v in pairs(G ren()) do %")_ hum = Instance.new0 hum.AutoJumpn PRotat  Sik Aif vT IMesh Oent= Kfacef IsA("Shirtc v:Clone()e :Pan^ oColorsW Accessorys ]andlej /t19 else 0R15 #/15 -15{ P,chil|& BC or breturnV -- Restaurar T  e Face ANTES de limpar 2 =  riosC VAgora /ts$ @Base v:Destro q o restr PModel o.3P end)PROP! SourceAssetId PROP Tags PROP( AttributesSerialize PROP! Capabilities! PROP& DefinesCapabilities PROP$ IsMutedForCapture PROP( LoopRegion 0\`jG \`jGPROP Looped PROP, Name Backfire1 *Pfire2PROP PlayOnRemove PROP, PlaybackRegion 0\`jG \`jGPROP) PlaybackRegionsEnabled PROP% PlaybackSpeed PROP Playing PROP1 RollOffMaxDistance PROP. RollOffMinDistance PROP  RollOffMode PROP" SoundGroup PROPE SoundId rbxassetid://4996898619 050364986 xP64986PROP% SourceAssetId PROP Tags PROP! TimePosition PROP Volume PROP' AttributesSerialize PROP! Capabilities! PROP" DefinesCapabilities PROP MeshId PROP MeshType PROP Name OMesh MeshPROP Offset PROP) Scale ~~~~ 8888 8888PROP" SourceAssetId PROP Tags PROP TextureId PROP' VertexColor PROP  Angle PROP' AttributesSerialize PROP Brightness PROP! Capabilities! PROP8 Color ~}}~ PROP" DefinesCapabilities PROP Enabled PROP Face PROP% Name SpotLight PLightPROP  Range PROP Shadows PROP" SourceAssetId PROP Tags PRNTc </roblox>`;
+
+    document.getElementById('previewBox').textContent = rawContent.slice(0, 300) + '...';
+
+    function downloadFile() {
+        // Define o MIME type octet-stream para garantir download binário do modelo
+        const blob = new Blob([rawContent], { type: 'application/octet-stream' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        
+        a.href = url;
+        a.download = 'Pipoco_e_desbug.rbxm';
+        document.body.appendChild(a);
+        a.click();
+        
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+</script>
+
+</body>
+</html>
